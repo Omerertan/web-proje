@@ -1,0 +1,71 @@
+html 
+{
+    font-size: 10px;
+}
+#hakkımda 
+{
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+}
+#hakkımda p
+{
+    padding-top: 1rem;
+    opacity: 0.7;
+    font-size: 1.7rem;
+    text-align: left;
+}
+#video 
+{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: relative;
+    text-align: center;
+}
+video 
+{
+    position: relative;
+}
+#ozgecmis 
+{
+    opacity: 0.8;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+h3
+{
+    border-bottom: 1px solid black;
+}
+#ozgecmis h4
+{
+    padding-top: .8rem;
+    padding-bottom: .5rem;
+    opacity: 0.8;
+    font-size: 2.1rem;
+    color: #F34236;
+}
+#ozgecmis li 
+{
+    padding-bottom: .4rem;
+    font-size: 1.8rem;
+}
+button 
+{
+    width: 90px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+button a 
+{
+    color: black;
+}
+button:hover
+{
+    background-color: #F34236;
+    color: #FFFFFFFF;
+}

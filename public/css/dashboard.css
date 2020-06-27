@@ -1,0 +1,185 @@
+body {   
+   margin: 0px;
+   padding: 0px;
+   font-family: "Roboto", sans-serif;
+}
+header {
+    position: fixed;
+    background-color: #000000;
+    top: 0px;
+    width: 100%;
+    height: 100px;
+}
+.left_area img {
+    margin: 0px;
+    max-width: 100px;
+    max-height: 100px;
+    padding-left: 50px;
+
+}
+.logout_btn {
+    border: 1px solid #dc3545;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    float: right;
+    margin-top: -75px;
+    margin-right: 40px;
+    padding: 7px 10px 7px 10px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.logout_btn:hover {
+    background-color: #dc3545;
+}
+
+.sidebar {
+    background-color: #000000;
+    margin-top: 80px;
+    padding-top: 60px;
+    position: fixed;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    transition: 0.5s;
+    transition-property: left;
+}
+.sidebar h4 {
+    color: #ffffff;
+    margin: 0px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+}
+.sidebar a{
+    color: #ffffff;
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    text-decoration: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.sidebar a:hover {
+    background-color: #dc3545;
+}
+label #sidebar_btn {
+    z-index: 1;
+    position: fixed ;
+    cursor: pointer;    
+    left: 250px;
+    margin: 30px 0px;
+}
+#check:checked ~ .sidebar{
+    left: -250px;
+}
+#check:checked ~ .sidebar a span {
+    display: none;
+}
+.content {
+    margin-left: 250px; 
+    margin-top: 80px;
+    padding-left: 1%;
+    padding-top: 20px;
+    /* height: 100vh;     */
+    transition: 0.5s;
+    position: relative;
+    color: #000000; 
+}
+#check:checked ~ .content {
+    margin-left: 60px;
+ }
+.container {
+    padding-left: 20px;
+    padding-top: 20px;
+    width: auto;
+}
+#check:checked ~ .container {
+    margin-left: 5px;
+}
+.tablo {
+    border-collapse: collapse;
+    margin: 25px 0;
+    width: 100%;
+    font-size: 17px;
+    
+}
+.tablo tbody tr {
+    text-align: left;
+    
+}
+.tablo thead th {
+    margin-right: 0px;
+    margin-left: 0px;
+    color: #000000;
+    
+}
+.tablo th,
+.tablo td {
+    width: 50px;
+}
+
+.form {
+    width: 80%;
+    min-width: 220px;
+}
+.form textarea {
+    width: 100%;
+    height: 200px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-left: -10px;
+}
+.buton {
+    background-color: #007E33;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 7px 15px 7px 15px;
+    text-decoration: none;
+    float: left;
+}
+
+.change {
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 70%;
+}
+#select {
+    min-width: 80px;
+    height: 25px;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+#select option {
+    margin-top: 3px;
+}
+#iletisim 
+{
+    width: 80%;
+    height: auto;
+    padding-left: 20px;
+}
+#iletisim form 
+{
+    max-width: 600px;
+    color: #000000;
+}
+#iletisim form input {
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+}
+#iletisim form textarea {
+    border-radius: 5px;
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+}

@@ -1,0 +1,33 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #ffffff;
+} 
+button {
+    margin-top: 10px;
+}
+#box 
+{
+   height: 400px;
+   width: 500px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 100px;
+   margin-bottom: auto;
+   text-align: center; 
+} 
+.box-form {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: left;
+} 

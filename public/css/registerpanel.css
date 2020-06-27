@@ -1,0 +1,57 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 400;
+}
+
+#box {
+    width: 476px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:  5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative; 
+    text-align: center;
+}
+#satır {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+}
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    text-align: left;
+}
+.input {
+    border-radius: 5px;
+    width: 60%;
+    height: 35px;
+    font-size: 16px;
+    color: #373D3F;
+    outline: none; 
+    margin-left: auto; 
+}
+.input:focus 
+{
+    box-shadow: 0px 0px 11px -4px  gainsboro;
+}
+button 
+{
+    font-size: 15px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #dc3545;
+    width: 59%;
+    height: 40px;
+    border: none;
+    margin-top: 12px;
+}
+button:hover {
+    background-color: #C82333;
+}

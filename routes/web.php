@@ -13,7 +13,7 @@
 
 
 
-Route::group(['prefix' => 'admin', 'namespace' => 'Admin'], function() 
+Route::group(['prefix' => 'yonetim', 'namespace' => 'Admin'], function() 
 {   
     Route::match(['get', 'post'], '/login', 'AdminController@login')->name('admin.login');
     Route::get('/logout', 'AdminController@logout')->name('admin.logout'); 

@@ -56,7 +56,7 @@ class AdminController extends Controller
 
         }
        
-        return view('Yonetim.login');
+        return view('admin.login');
     }
 
     public function logout() 
